@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: Value Arc
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false

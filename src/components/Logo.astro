@@ -1,9 +1,13 @@
 ---
 import { SITE } from 'astrowind:config';
+import { Image } from 'astro:assets';
+import logo from '../assets//images/logo_web.png';
 ---
 
 <span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
+  class=" ml-2 rtl:ml-0 rtl:mr-2 flex items-end text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
 >
-  🚀 {SITE?.name}
+<Image src={logo}  alt="A bird sitting on a nest of eggs."  /> {SITE?.name}
+
+
 </span>
